@@ -1,12 +1,14 @@
-This is my personal collection of common (but not so common to remember) cmd/bash commands, feel free to copy and paste.
-Licence - [WTFPL](http://sam.zoy.org/wtfpl/)
-Syntax Reference - [http://daringfireball.net/projects/markdown/syntax#link](http://daringfireball.net/projects/markdown/syntax#link)
+This is my personal collection of common (but not so common to remember) cmd/bash commands, feel free to copy and paste. 
+
+Licence - [WTFPL](http://sam.zoy.org/wtfpl/) 
+
+Syntax Reference - [http://daringfireball.net/projects/markdown/syntax#link](http://daringfireball.net/projects/markdown/syntax#link) 
 
 Bash cheats
 ===========
 Search recursively over files into a directory 
 
-	find . -type f -exec grep '<String or regepx>' {} \; -print
-
+	find . -type f -exec grep '<String or regepx>' {} \; -print 
+***** 
 The end :)
 
