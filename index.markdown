@@ -10,6 +10,8 @@ Licence - [WTFPL](http://sam.zoy.org/wtfpl/)
 
 Syntax Reference - [http://daringfireball.net/projects/markdown/syntax#link](http://daringfireball.net/projects/markdown/syntax#link) 
 
+Contact - tuxtor at shekalug dot org
+
 ##Bash cheats
 Search recursively over files into a directory 
 
