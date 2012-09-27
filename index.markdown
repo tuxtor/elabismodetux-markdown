@@ -14,9 +14,11 @@ Search recursively over files into a directory
 
 	find . -type f -exec grep '<String or regepx>' {} \; -print 
 ***** 
-Add an alias for git add&commit&push (one-shot git!)
+VCS cheats
+==========
+Add an alias for git add, git commit and git push (one-shot git!) 
+
 	git config --global alias.ons '!git add -A && git commit && git push'
 
 ***** 
 The end :)
-
