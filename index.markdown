@@ -21,4 +21,5 @@ Add an alias for git add, git commit and git push (one-shot git!)
 	git config --global alias.ons '!git add -A && git commit && git push'
 
 ***** 
+
 The end :)
