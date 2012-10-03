@@ -23,7 +23,11 @@ Set default group for vsftpd uploads (set the sticky bit and all files will be o
 
 Default mask for vsftpd files at (local umask) 
 
-	/etc/vsftpd.conf
+	/etc/vsftpd.conf 
+
+Allow directory listing on apache using .htaccess file 
+
+	cat "Options +Indexes" >> $SITE_DIR/.htaccess
 ***** 
 ##VCS cheats
 Add an alias for git add, git commit and git push (one-shot git!) 
