@@ -8,7 +8,7 @@ CSS - [Kenvin Burke's markdown css](http://kevinburke.bitbucket.org/markdowncss/
 
 Licence - [WTFPL](http://sam.zoy.org/wtfpl/) 
 
-Syntax Reference - [http://daringfireball.net/projects/markdown/syntax#link](http://daringfireball.net/projects/markdown/syntax#link) 
+Syntax Reference - [http://daringfireball.net/projects/markdown/syntax#link](http://daringfireball.net/projects/markdown/syntax) 
 
 Contact - tuxtor at shekalug dot org
 
@@ -27,8 +27,30 @@ Default mask for vsftpd files at (local umask)
 
 Allow directory listing on apache using .htaccess file 
 
-	cat "Options +Indexes" >> $SITE_DIR/.htaccess
+	cat "Options +Indexes" >> $SITE_DIR/.htaccess 
 ***** 
+##Sar common options
+* -b I/O stadistics 
+* -B paging stadistics 
+* -C read comments from datafile 
+* -d read activity from block device 
+* -i select data between a defined interval
+* -m CPU speed
+* -n Network speed
+  DEV 
+*  -p cpu|ALL
+*  -q tareas en cola
+*  -r memoria (utilizacion)
+*  -R memory stadistics
+*  -u cpu utilization
+*  -t original local time
+*  -v kernel stadistics
+*  -w task creation, task switching
+*  -W swapping stadistics
+*  -y tty device activity
+
+***** 
+
 ##VCS cheats
 Add an alias for git add, git commit and git push (one-shot git!) 
 
