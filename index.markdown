@@ -21,15 +21,31 @@ Set default group for vsftpd uploads (set the sticky bit and all files will be o
 
 	chmod g+s 
 
-Default mask for vsftpd files at (local umask) 
-
-	/etc/vsftpd.conf 
 
 Allow directory listing on apache using .htaccess file 
 
 	cat "Options +Indexes" >> $SITE_DIR/.htaccess 
 ***** 
-##Sar common options
+##Software cheats 
+Default mask for vsftpd files at (local umask) 
+
+	/etc/vsftpd.conf 
+
+Add an alias for git add, git commit and git push (one-shot git!) 
+
+	git config --global alias.ons '!git add -A && git commit && git push'
+	git ons
+
+List all packages installed from overlays in Gentoo
+	
+	eix -Jc
+
+Configure htop to do not show forked threads 
+	
+	cat hide_userland_threads=1
+
+Sar common options
+
 * -b I/O stadistics 
 * -B paging stadistics 
 * -C read comments from datafile 
@@ -37,7 +53,6 @@ Allow directory listing on apache using .htaccess file
 * -i select data between a defined interval
 * -m CPU speed
 * -n Network speed
-  DEV 
 *  -p cpu|ALL
 *  -q tareas en cola
 *  -r memoria (utilizacion)
@@ -48,18 +63,5 @@ Allow directory listing on apache using .htaccess file
 *  -w task creation, task switching
 *  -W swapping stadistics
 *  -y tty device activity
-
-***** 
-
-##VCS cheats
-Add an alias for git add, git commit and git push (one-shot git!) 
-
-	git config --global alias.ons '!git add -A && git commit && git push'
-	git ons
-***** 
-##Gentoo cheats 
-List all packages installed from overlays 
-	
-	eix -Jc 
 
 The end :)
