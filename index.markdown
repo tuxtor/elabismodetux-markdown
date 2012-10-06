@@ -2,7 +2,7 @@
 
 #Hi! 
 
-This is my personal collection of common (but not so common to remember) cmd/bash commands, feel free to copy and paste. 
+This is my personal collection of common (but not so common to remember) cmd/bash commands and Linux apps commands , feel free to copy and paste. 
 
 CSS - [Kenvin Burke's markdown css](http://kevinburke.bitbucket.org/markdowncss/) 
 
@@ -40,7 +40,7 @@ List all packages installed from overlays in Gentoo
 	
 	eix -Jc
 
-Configure htop to do not show forked threads 
+Configure htop to hide forked threads 
 	
 	cat hide_userland_threads=1
 
