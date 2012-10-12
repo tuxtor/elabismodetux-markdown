@@ -25,6 +25,10 @@ Set default group for vsftpd uploads (set the sticky bit and all files will be o
 Allow directory listing on apache using .htaccess file 
 
 	cat "Options +Indexes" >> $SITE_DIR/.htaccess 
+
+Shop open ports and runing applications on that ports
+
+	netstat -an|grep "LISTENING"
 ***** 
 ##Software cheats 
 Default mask for vsftpd files at (local umask) 
@@ -42,7 +46,7 @@ List all packages installed from overlays in Gentoo
 
 Configure htop to hide forked threads 
 	
-	cat hide_userland_threads=1
+	echo "hide_userland_threads=1">>~/.htoprc
 
 Sar common options
 
