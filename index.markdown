@@ -33,6 +33,7 @@ Shop open ports and runing applications on that ports
 Store executed bash commands in a new text file
 
 	script archivo.txt
+	exit
 ***** 
 ##Software cheats 
 Default mask for vsftpd files at (local umask) 
@@ -70,6 +71,16 @@ Sar common options
 *  -v kernel stadistics
 *  -w task creation, task switching
 *  -W swapping stadistics
-*  -y tty device activity
+*  -y tty device activity 
+
+Execute .sql file in postgreSQL 
+	
+	psql -d <db-name> -a -f <sqlfile.sql> 
+
+Execute .sql file in mysql 
+	
+	mysql
+	mysql> source <file.sql>
+
 
 The end :)
