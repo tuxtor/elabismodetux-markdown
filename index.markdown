@@ -29,6 +29,10 @@ Allow directory listing on apache using .htaccess file
 Shop open ports and runing applications on that ports
 
 	netstat -an|grep "LISTENING"
+
+Store executed bash commands in a new text file
+
+	script archivo.txt
 ***** 
 ##Software cheats 
 Default mask for vsftpd files at (local umask) 
