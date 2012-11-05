@@ -33,7 +33,11 @@ Shop open ports and runing applications on that ports
 Store executed bash commands in a new text file
 
 	script archivo.txt
-	exit
+	exit 
+
+Find HDD specs using sdparm 
+	
+	sdparm -i /dev/sdx
 ***** 
 ##Software cheats 
 Default mask for vsftpd files at (local umask) 
