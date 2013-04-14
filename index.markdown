@@ -37,7 +37,11 @@ Store executed bash commands in a new text file
 
 Find HDD specs using sdparm 
 	
-	sdparm -i /dev/sdx
+	sdparm -i /dev/sdx 
+
+Delete files withing a directory, excluding some files/directories 
+
+	ls -1|grep -v -E '<exclusion exprexion>'|xargs rm -R
 ***** 
 ##Software cheats 
 Default mask for vsftpd files at (local umask) 
